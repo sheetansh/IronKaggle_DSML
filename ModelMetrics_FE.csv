@@ -1,4 +1,7 @@
 Model,Split,R2,Adjusted_R2,MAE,MAPE,RMSE,Comments
-LinearRegression,Train,0.6977,0.6973,125951.3766,0.2561,202867.7483,Linear Regression FE Metrics
-RandomForestRegressor,Train,0.982,0.982,25790.8848,0.0483,49438.2292,Random Forest Train FE Metrics
-XGBRegressor,Train,0.9781,0.978,38780.6312,0.0861,54634.2544,XGBoost Train FE Metrics
+LinearRegression,train,0.6977,0.6973,125914.8975,0.2557,202891.3616,Linear Regression FE Metrics - train
+LinearRegression,test,0.7165,0.7151,125994.7484,0.259,191439.9182,Linear Regression FE Metrics - test
+RandomForestRegressor,train,0.982,0.982,25980.2304,0.0486,49538.9365,Random Forest Train FE Metrics - train
+RandomForestRegressor,test,0.8956,0.895,67606.7385,0.128,116190.6199,Random Forest Test FE Metrics - test
+XGBRegressor,train,0.9761,0.9761,40791.8177,0.0903,57067.4036,XGBoost Train FE Metrics - train
+XGBRegressor,test,0.9038,0.9033,66773.7091,0.1271,111527.5852,XGBoost Test FE Metrics - test
