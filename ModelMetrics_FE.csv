@@ -1,7 +1,11 @@
 Model,Split,R2,Adjusted_R2,MAE,MAPE,RMSE,Comments
-LinearRegression,train,0.6977,0.6973,125914.8975,0.2557,202891.3616,Linear Regression FE Metrics - train
-LinearRegression,test,0.7165,0.7151,125994.7484,0.259,191439.9182,Linear Regression FE Metrics - test
-RandomForestRegressor,train,0.982,0.982,25980.2304,0.0486,49538.9365,Random Forest Train FE Metrics - train
-RandomForestRegressor,test,0.8956,0.895,67606.7385,0.128,116190.6199,Random Forest Test FE Metrics - test
-XGBRegressor,train,0.9761,0.9761,40791.8177,0.0903,57067.4036,XGBoost Train FE Metrics - train
-XGBRegressor,test,0.9038,0.9033,66773.7091,0.1271,111527.5852,XGBoost Test FE Metrics - test
+LinearRegression,train,0.6977,0.6973,125914.8975,0.2557,202891.3616,"Linear Regression FE Metrics - train - dropped features: date, id, yr_built, year_sold, month_sold"
+LinearRegression,test,0.7165,0.7151,125994.7484,0.259,191439.9182,"Linear Regression FE Metrics - test - dropped features: date, id, yr_built, year_sold, month_sold"
+RandomForestRegressor,train,0.982,0.982,25980.2304,0.0486,49538.9365,"Random Forest Train FE Metrics - train - dropped features: date, id, yr_built, year_sold, month_sold"
+RandomForestRegressor,test,0.8956,0.895,67606.7385,0.128,116190.6199,"Random Forest Test FE Metrics - test - dropped features: date, id, yr_built, year_sold, month_sold"
+RandomForestRegressor,train,0.9819,0.9819,26031.4643,0.0487,49598.778,"Random Forest Train FE + FI  Metrics - train - dropped features: date, id, yr_built, year_sold, month_sold"
+RandomForestRegressor,test,0.8946,0.8941,67781.7366,0.1283,116702.2972,"Random Forest Test FE + FI Metrics - test - dropped features: date, id, yr_built, year_sold, month_sold"
+XGBRegressor,train,0.9761,0.9761,40791.8177,0.0903,57067.4036,"XGBoost Train FE Metrics - train - dropped features - date, id, yr_built, year_sold, month_sold"
+XGBRegressor,test,0.9038,0.9033,66773.7091,0.1271,111527.5852,"XGBoost Test FE Metrics - test - dropped features - date, id, yr_built, year_sold, month_sold"
+XGBRegressor,train,0.9761,0.9761,40791.8177,0.0903,57067.4036,"XGBoost Train FE + FI Metrics - train - dropped features: date, id, yr_built, year_sold, month_sold"
+XGBRegressor,test,0.9038,0.9033,66773.7091,0.1271,111527.5852,"XGBoost Test FE + FI Metrics - test - dropped features: date, id, yr_built, year_sold, month_sold"
